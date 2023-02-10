@@ -9,12 +9,12 @@
     <link rel="stylesheet" href="index.css">
 </head>
 <body>
-    <header>
+    <header class="header">
         <h1>Supernatural series</h1>
-<div class="header_topics"
+<div class="header_topics">
 <a href="#" class="header_topics_link">Home</a>
 <a href="#main_cast" class="header_topics_link">Cast</a>
-<a href="footer_opinion" class="header_topics_link">Tell your opinion</a>
+<a href="#footer_opinion" class="header_topics_link">Tell your opinion</a>
 </div>
  </header>
     <main>
@@ -22,7 +22,7 @@
         <p class="header_logo">
             <img src = "img/supernatural.png"   alt="Supernatural">
         </p>
-<div>
+        <section class="section_about" id="main_cast">
     <h2 class="main_cast">Cast:</h2>
     <ul class="main_cast">
       <li>Jared Padalecki as Sam</li>
@@ -31,15 +31,17 @@
       <li>Misha Collins as Castiel</li>
       <li> Mark Sheppard as Crowley</li>
     </ul>
-</div>
+        </section>
     </main>
-    <footer class="footer_opinion">
+    <footer>
+        <section class="footer_opinion" id="footer_opinion">
         <form action="https://www.imdb.com/title/tt0460681/episodes?season=1">
             <h2>Tell us your opinion about this series</h2>
             <label><input type="radio" name="like-don't" checked>I like firt season</label>
             <label><input type="radio" name="like-don't">I don't like</label><br>
             <p>Thanks for your choice!</p>
         </form>
+    </section>
     </footer>
 </body>
 </html>

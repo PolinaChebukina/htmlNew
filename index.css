@@ -1,13 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&display=swap');
-h1{
-    text-align: center;
-    font-family:'Covered By Your Grace';
-    background-color:gray;
-}
-.header_logo{
-    text-align: center;
-}
-.main_cast{
-    background-color:gray;
-    font-family:'Covered By Your Grace';
-}
+@import url(header.css);
+@import url(main.css);
+@import url(footer.css);
+@import url(common.css);
+
+

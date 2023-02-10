@@ -1,0 +1,28 @@
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+    font-family:'Covered By Your Grace';
+    color:var(--text-color);
+    
+}
+.header_logo{
+    text-align: center;
+}
+.header_topics_link{
+    padding: 0 10px 0 10px;
+    color: var(--h1-color);
+}
+
+.header_topics_link:hover {
+    color: rgb(205, 15, 21);
+    font-size: 25px;
+}
+.header_topics {
+    display: flex;
+    font-size: 20px;
+    margin-top: 20px;
+    font-family: 'Covered By Your Grace';
+}
+
