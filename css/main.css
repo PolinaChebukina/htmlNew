@@ -1,5 +1,11 @@
 .main_cast{
-    background-color:var(--h1-color);
+    background-color:var(--background-cast-color);
     color:var(--text-color);
     font-family:'Covered By Your Grace';
+}
+.main_link{
+    font-family:'Times New Roman';
+    font-size: 25px;
+    align-items: left;
+    justify-content: left;
 }
