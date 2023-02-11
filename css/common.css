@@ -7,7 +7,6 @@
 :root {
     scroll-behavior: smooth;
     --text-color:hsl(355, 93%, 32%);
-    --h1-color: :grey;
     --background-cast-color:rgb(192,192,192);
     
 }
