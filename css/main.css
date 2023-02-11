@@ -4,8 +4,13 @@
     font-family:'Covered By Your Grace';
 }
 .main_link{
-    font-family:'Times New Roman';
-    font-size: 25px;
-    align-items: left;
-    justify-content: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-top: 100px;
+    font-family:'Covered By Your Grace' ;
+    font-size:30px;
+    color:#000000;
 }
+
